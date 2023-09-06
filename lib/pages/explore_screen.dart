@@ -7,7 +7,7 @@ class exploreScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Center(
-      child: Icon(Icons.search),
+      child: Icon(Icons.search, color: Colors.lightGreen,),
     );
   }
 }

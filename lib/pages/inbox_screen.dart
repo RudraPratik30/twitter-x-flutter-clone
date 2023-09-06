@@ -7,7 +7,7 @@ class inboxScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Center(
-      child: Icon(Icons.email),
+      child: Icon(Icons.email, color: Colors.lightGreen,),
     );
   }
 }

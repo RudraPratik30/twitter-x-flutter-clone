@@ -7,7 +7,7 @@ class notificationScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Center(
-      child: Icon(Icons.notifications),
+      child: Icon(Icons.notifications, color: Colors.lightGreen,),
     );
   }
 }

@@ -29,11 +29,11 @@ class _XBottomNavigationBar extends State<XBottomNavigationBar>{
   int _selectedIndex = 0;
 
   static const List<Widget> _widgetOptions = <Widget>[
-    // homeScreen(),
-    // exploreScreen(),
-    // communityScreen(),
-    // notificationScreen(),
-    // inboxScreen()
+    homeScreen(),
+    exploreScreen(),
+    communityScreen(),
+    notificationScreen(),
+    inboxScreen()
   ];
 
   void _onItemTapped(int index) {
